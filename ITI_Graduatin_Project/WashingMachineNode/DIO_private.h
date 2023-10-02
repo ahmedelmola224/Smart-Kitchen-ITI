@@ -1,0 +1,13 @@
+
+
+
+#ifndef DIO_PRIVATE_H_
+#define DIO_PRIVATE_H_
+
+extern const DIO_PinStatus_type PinStatusArray[];
+
+static void DIO_InitPin(DIO_Pin_type pin,DIO_PinStatus_type status);
+
+
+
+#endif 
